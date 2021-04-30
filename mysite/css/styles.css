@@ -1,0 +1,123 @@
+body{
+text-align:center;
+margin:auto;
+
+}
+.top{
+  padding:10% 0 2%;
+  background-color:#ff4c68;
+  font-family: 'Montserrat', sans-serif;
+  color:#fff;
+}
+.big-head{
+font-family: 'Cedarville Cursive', cursive;
+font-size:4rem;
+margin-bottom: 0;
+}
+.head-sub{
+  margin-top: 0;
+
+}
+.anc-tag{
+font-family: 'Quicksand', sans-serif;
+padding: 5% 2%;
+}
+.anc{
+  padding:0 1%;
+  color:#fff;
+  text-decoration: none;
+}
+.anc:hover{
+  color:#666;
+}
+.sub-head{
+  font-size:1.6rem;
+  padding-top:1.5%;
+}
+.sub-para{
+  font-size:1.2rem;
+}
+/* Skills */
+.skill{
+  padding:5% 0 5%;
+}
+.skill-head{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size:2.5rem;
+  color:#666;
+}
+.skill-row{
+  margin:7% 25%;
+  font-family: 'Quicksand', sans-serif;
+  text-align:left;
+
+}
+.code{
+  width:30%;
+  height:30%;
+  border-radius:100%;
+  float:left;
+  margin-right: 5%;
+
+}
+.code1{
+  width:30%;
+  height:30%;
+  border-radius:100%;
+  float:right;
+  margin-left:5%;
+}
+.skill-text{
+  color:#666;
+  font-size:1.3rem;
+  line-height:2;
+}
+.skill-para{
+  color:#666;
+  line-height:2;
+}
+hr{
+  width:70%;
+  color:#6666;
+}
+
+.contact{
+  margin:5% auto;
+  font-family:'Montserrat',sans-serif;
+  font-size:1.2rem;
+  color:#666;
+}
+.pa{
+  padding-bottom:3%;
+}
+.contact-a{
+  border:7px inset #666;
+  font-size:1.2rem;
+  font-weight:bold;
+  color:#666;
+  padding:6px 9px;
+  border-radius:5px;
+  text-decoration:none;
+  margin:80px 0 0;
+}
+.contact-a:hover{
+  border-style: outset;
+  background: #666;
+  color:#fff;
+}
+.footer{
+  background-color:#ff4c68;
+  padding:3% 0;
+}
+.icon{
+  color:#fff;
+  padding:0 1%;
+}
+.icon:hover{
+  color:#666;
+}
+.cpy{
+  font-family:'Quicksand',sans-serif;
+  color:#fff;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<link rel="stylesheet" href="css/contact.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cedarville+Cursive&family=Montserrat&family=Quicksand&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/55580ecfb7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="top">
+  <h1 title="Shain Aktar" class="heading">Shain Aktar</h1>
+  <div class="anc-tag">
+  <a class="anc" href="index.html">ABOUT</a>
+  <a class="anc" href="">WRITING</a>
+  <a class="anc" href="portfolio.html">PORTFOLIO</a>
+  <a class="anc" href="consulting.html">CONSULTING</a>
+  <a class="anc cont" href="contact.html">CONTACT</a>
+  </div>
+  </div>
+  <form class="frm" action="index.html" method="post" target="_self">
+  <fieldset>
+    <legend>Personal Information</legend>
+  <p class="frm">First Name:<input type="text" size="30" autofocus/><span class="frm">Last Name:<input type="text" size="30"/></span></p>
+  <p class="frm">Mobile No.:<input type="tel" size="30" pattern=[0-9]{10}/><span class="frm">E-mail:<input type="email" size="30" required/></span></p><br>
+  <label for="cat" class="frm ctg">Category:</label>
+  <select id="cat">
+  <option selected>Select</option>
+  <option >GEN</option>
+  <option >SC</option>
+  <option >ST</option>
+  <option >OBC</option>
+</select><br>
+  <label for="message" class="frm" >Message:</label><br>
+  <textarea name="message"rows="10" cols="30" class="frm">
+  Type Your Message Here.
+</textarea><br><br>
+  <input type="image" src="images\coding.png"  class="frm" alt="Submit" width="40" height="40"><br><br>
+  <label for="boards" class="frm ctg" >Boards:</label>
+  <input list="boards">
+  <datalist id="boards">
+    <option value="CBSE">
+    <option value="SEBA">
+    <option value="ICSE">
+    <option value="IOSE">
+    <option value="NOS">
+  </datalist>
+  <input type="submit"value="Search"><br>
+  <label for="date" class="frm ctg" >DOB:</label>
+  <input type="date"id="date"><br>
+  <label for="file" class="frm ctg" >Upload File:</label>
+  <input type="file"><br>
+  <label for="checkbox" class="frm ctg" >Select appropriate option:</label><br>
+  <input type="checkbox"  class="frm" id="mobile">
+  <label for="mobile"> I have a smartphone</label><br>
+  <input type="checkbox"  class="frm" id="lappy">
+  <label for="lappy"  > I have a PC</label><br>
+  <label for="vol" class="frm ctg" >product quantity:</label>
+  <input type="range" id="vol" min="0" max="50" step="10"><br>
+  <label for="gsearch" class="frm ctg">Search Google:</label>
+  <input type="search" id="gsearch" name="gsearch"><br>
+  <label for="datetime" class="frm ctg">Book slot:</label>
+  <input type="datetime-local" id="datetime"><br>
+  <label for="url" class="frm ctg">Website</label>
+  <input type="url" id="url"><br>
+  <input type="submit" value="Submit" class="frm" size="10">
+  </fieldset>
+  </form>
+  <div class="footer">
+    <a class="icon" href="https://www.facebook.com/" target="new-window"><i class="fab fa-facebook-f"></i></a>
+    <a class="icon" href="https://www.linkedin.com/in/codersal" target="new-window"><i class="fab fa-linkedin"></i></a>
+    <a class="icon" href="https://twitter.com/login" target="new-window"><i class="fab fa-twitter"></i></a>
+    <a class="icon" href="https://www.instagram.com/" target="new-window"><i class="fab fa-instagram"></i></a>
+    <p class="cpy">&#169; Copyright 2021 Shain Aktar Laskar&nbsp;&bull;&nbsp;All rights reserved.</p>
+  </div>
+</body>
+</html>
